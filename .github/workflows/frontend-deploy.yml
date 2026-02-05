@@ -4,15 +4,13 @@ on:
   push:
     branches:
       - dev
-    paths:
-      - 'frontend/**' # Only trigger if frontend code changes
+    paths-ignore:
+      - 'backend/**' # Trigger on EVERYTHING EXCEPT the backend folder
 
 jobs:
   deploy-frontend:
     runs-on: self-hosted
-    defaults:
-      run:
-        working-directory: ./frontend 
+    # No "defaults" section needed because we are in the root
 
     steps:
       - name: Checkout Code
@@ -21,12 +19,10 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          npm run build # Ensure this creates a 'dist' folder
+          npm run build # This creates the 'dist' folder in root
 
       - name: Serve with Python & PM2
         run: |
-          # 1. Kill old frontend process if it exists
           pm2 delete Apti-FE || true
-          
-          # 2. Start Python server from the dist directory on port 3001
+          # Serve from the 'dist' folder created in the root
           pm2 start "python3 -m http.server 3001 --directory dist" --name "Apti-FE"
