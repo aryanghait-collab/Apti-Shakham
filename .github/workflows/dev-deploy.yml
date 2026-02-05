@@ -25,5 +25,5 @@ jobs:
 
       - name: Restart with PM2
         run: |
-          # This restarts the app if it exists, or starts it fresh if it doesn't
-          pm2 restart Apti-BE || pm2 start "venv/bin/python -m uvicorn app.main:app --host 0.0.0.0 --port 8001" --name "Apti-BE"
+          pm2 delete Apti-BE || true
+          pm2 start venv/bin/uvicorn --name "Apti-BE" -- app.main:app --host 0.0.0.0 --port 8001
