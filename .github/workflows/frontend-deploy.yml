@@ -1,0 +1,32 @@
+name: Dev Frontend Deploy
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy-frontend:
+    runs-on: self-hosted
+    defaults:
+      run:
+        # Assuming your React app is in a folder named 'frontend'
+        working-directory: ./frontend 
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install and Build
+        run: |
+          npm install
+          # This builds to 'dist' instead of the default 'build' folder
+          BUILD_PATH='./dist' npm run build
+
+      - name: Serve with Python & PM2
+        run: |
+          # Kill old instance if it exists
+          pm2 delete Apti-FE || true
+          
+          # Start python server inside the 'dist' folder on port 3000
+          pm2 start "python3 -m http.server 3001 --directory dist" --name "Apti-FE"
