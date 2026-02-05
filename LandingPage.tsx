@@ -48,7 +48,7 @@ const LandingPage: React.FC = () => {
                         color: '#1e293b',
                         letterSpacing: '-0.02em'
                     }}>
-                        Technical Assessment Platform
+                        Technical  Platform
                     </h1>
                     <p style={{
                         fontSize: '1.125rem',
