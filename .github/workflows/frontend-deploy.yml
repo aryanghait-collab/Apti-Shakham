@@ -4,13 +4,14 @@ on:
   push:
     branches:
       - dev
+    paths:
+      - 'frontend/**' # Only trigger if frontend code changes
 
 jobs:
   deploy-frontend:
     runs-on: self-hosted
     defaults:
       run:
-        # Assuming your React app is in a folder named 'frontend'
         working-directory: ./frontend 
 
     steps:
@@ -20,13 +21,12 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          # This builds to 'dist' instead of the default 'build' folder
-          BUILD_PATH='./dist' npm run build
+          npm run build # Ensure this creates a 'dist' folder
 
       - name: Serve with Python & PM2
         run: |
-          # Kill old instance if it exists
+          # 1. Kill old frontend process if it exists
           pm2 delete Apti-FE || true
           
-          # Start python server inside the 'dist' folder on port 3000
+          # 2. Start Python server from the dist directory on port 3001
           pm2 start "python3 -m http.server 3001 --directory dist" --name "Apti-FE"

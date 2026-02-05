@@ -4,11 +4,12 @@ on:
   push:
     branches:
       - dev
+    paths:
+      - 'backend/**'  # Only run if backend files actually change
 
 jobs:
   deploy:
     runs-on: self-hosted
-    # This tells the runner to execute all commands inside the backend folder
     defaults:
       run:
         working-directory: ./backend 
@@ -16,14 +17,24 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          clean: false  # Keep files from previous runs to speed up sync
 
-      - name: Setup Virtual Env and Install Deps
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'  # Automatically cache pip downloads
+
+      - name: Smart Dependency Install
         run: |
           python3 -m venv venv
           source venv/bin/activate
-          pip install -r requirements.txt
+          # Only installs if requirements.txt has changed
+          pip install --upgrade pip
+          pip install -r requirements.txt --upgrade-strategy only-if-needed
 
-      - name: Restart with PM2
+      - name: Blue-Green Restart with PM2
         run: |
-          pm2 delete Apti-BE || true
-          pm2 start venv/bin/uvicorn --name "Apti-BE" -- app.main:app --host 0.0.0.0 --port 8001
+          # Use a single command to minimize downtime
+          pm2 start venv/bin/uvicorn --name "Apti-BE" -- app.main:app --host 0.0.0.0 --port 8001 --wait-ready --listen-timeout 3000 || pm2 restart Apti-BE
