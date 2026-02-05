@@ -1,0 +1,29 @@
+name: Dev Backend Deploy
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    # This tells the runner to execute all commands inside the backend folder
+    defaults:
+      run:
+        working-directory: ./backend 
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Virtual Env and Install Deps
+        run: |
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Restart with PM2
+        run: |
+          # This restarts the app if it exists, or starts it fresh if it doesn't
+          pm2 restart Apti-BE || pm2 start "venv/bin/python -m uvicorn app.main:app --host 0.0.0.0 --port 8001" --name "Apti-BE"
