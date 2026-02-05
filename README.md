@@ -152,3 +152,4 @@ Difficulty levels: 1 (easiest) to 5 (hardest)
 - Visibility change detection
 - Fullscreen exit detection
 - All events logged to database with timestamps
+- Everything shown in Admin Panel
