@@ -1,0 +1,328 @@
+EASY LEVEL
+1. What is 25% of 200?
+A) 25
+ B) 40
+ C) 50
+ D) 75
+ Answer: C) 50
+
+2. If CAT = 24, then DOG = ?
+
+ A) 26
+ B) 28
+ C) 30
+ D) 31
+ Answer: C) 26 (D=4, O=15, G=7 → 26)
+
+3. Which number comes next: 2, 4, 8, 16, ___?
+A) 18
+ B) 24
+ C) 30
+ D) 32
+Answer: D) 32
+
+4. A train travels 60 km in 1 hour. What is its speed?
+A) 30 km/h
+ B) 40 km/h
+ C) 60 km/h
+ D) 120 km/h
+ Answer: C) 60 km/h
+
+5. Find the odd one out:
+A) Square
+ B) Rectangle
+ C) Triangle
+ D) Circle
+Answer: C) Triangle
+
+6. If 1st January 2024 was Monday, then 1st January 2025 will be?
+A) Monday
+ B) Tuesday
+ C) Wednesday
+ D) Thursday
+Answer: C) Wednesday
+
+7. What is the average of 10, 20, 30?
+A) 15
+ B) 20
+ C) 25
+ D) 30
+Answer: B) 20
+
+8. What is the value of 7 × 8 − 12?
+A) 44
+ B) 48
+ C) 52
+ D) 56
+ ✅ Answer: A) 44
+
+9. Which word is a synonym of Rapid?
+A) Slow
+ B) Fast
+ C) Weak
+ D) Late
+ ✅ Answer: B) Fast
+
+10. If SOUTH is written as TQVUI, then NORTH is written as?
+A) OPSUI
+ B) OPSUI
+ C) OPSTI
+ D) OPSUJ
+ Answer: A) OPSUI
+
+11. If the perimeter of a square is 20 cm, what is its area?
+A) 16 sq cm
+ B) 20 sq cm
+ C) 25 sq cm
+ D) 36 sq cm
+ Answer: A) 16 sq cm
+
+12. Find the next number: 5, 10, 20, 40, ___
+A) 60
+ B) 70
+ C) 80
+ D) 100
+ ✅ Answer: C) 80
+
+MODERATE LEVEL
+13. A shopkeeper gives 10% discount on ₹800. What is the selling price?
+A) ₹700
+ B) ₹720
+ C) ₹740
+ D) ₹760
+Answer: B) ₹720
+
+14. Find the missing number:
+3, 9, 27, ___
+ A) 54
+ B) 72
+ C) 81
+ D) 90
+ Answer: C) 81
+
+15. If A is taller than B and B is taller than C, who is the shortest?
+A) A
+ B) B
+ C) C
+ D) Cannot be determined
+ Answer: C) C
+
+16. What is the LCM of 12 and 18?
+A) 36
+ B) 48
+ C) 60
+ D) 72
+ Answer: A) 36
+
+17. A man buys an article for ₹500 and sells it for ₹600. What is the profit %?
+A) 10%
+ B) 15%
+ C) 20%
+ D) 25%
+ Answer: C) 20%
+
+18. Find the missing letter:
+A, C, F, J, O, ___
+ A) S
+ B) T
+ C) U
+ D) V
+ Answer: B) T
+
+19. If 5x = 3y, then x:y =
+A) 3:5
+ B) 5:3
+ C) 15:3
+ D) 3:15
+ Answer: A) 3:5
+
+20. A clock shows 3:15. What is the angle between the hands?
+A) 0°
+ B) 7.5°
+ C) 15°
+ D) 22.5°
+ Answer: D) 22.5°
+
+21. A man walks 4 km east and then 3 km north. How far is he from the starting point?
+A) 5 km
+ B) 6 km
+ C) 7 km
+ D) 8 km
+ ✅ Answer: A) 5 km
+
+42. A number is divisible by 9 if:
+A) Last digit is divisible by 9
+ B) Sum of digits is divisible by 9
+ C) Number is even
+ D) Number ends with 9
+ ✅ Answer: B) Sum of digits is divisible by 9
+
+43. Find the missing number:
+7, 14, 28, ___, 112
+ A) 42
+ B) 49
+ C) 56
+ D) 64
+ ✅ Answer: C) 56
+
+44. If the cost price of an article is ₹750 and it is sold for ₹900, what is the gain %?
+A) 15%
+ B) 18%
+ C) 20%
+ D) 25%
+ ✅ Answer: C) 20%
+
+45. If the ratio of ages of Ram and Shyam is 4:5 and Ram is 24 years old, what is Shyam’s age?
+A) 28
+ B) 30
+ C) 32
+ D) 36
+ ✅ Answer: B) 30
+
+16. If ALL = 36 and BAT = 39, then CAT = ?
+A) 24
+ B) 30
+ C) 33
+ D) 36
+ Answer: C) 33
+
+17. The ratio of boys to girls is 3:2. If there are 30 boys, how many girls?
+A) 15
+ B) 18
+ C) 20
+ D) 25
+ Answer: C) 20
+
+DIFFICULT LEVEL
+18. Find the next term:
+1, 4, 9, 16, 25, ___
+ A) 30
+ B) 32
+ C) 36
+ D) 49
+ Answer: C) 36
+
+19. A can complete a work in 10 days, B in 15 days. Together they will complete in:
+A) 5 days
+ B) 6 days
+ C) 7 days
+ D) 8 days
+ Answer: B) 6 days
+
+20. If the selling price is doubled, profit becomes 3 times. Find the profit %.
+A) 50%
+ B) 75%
+ C) 100%
+ D) 200%
+ Answer: C) 100%
+
+21. Statements:
+All pens are books. Some books are papers.
+ Conclusion: Some pens are papers.
+ A) True
+ B) False
+ C) Both true & false
+ D) Cannot be determined
+ Answer: D) Cannot be determined
+
+22. Find the missing number:
+8, 24, 12, 36, 18, ___
+ A) 42
+ B) 48
+ C) 54
+ D) 72
+ Answer: C) 54
+
+23. Probability of getting a head when a coin is tossed?
+A) 0
+ B) 1
+ C) 1/2
+ D) 1/4
+ Answer: C) 1/2
+
+24. A number is increased by 20% and then decreased by 20%. Net effect?
+A) No change
+ B) 2% increase
+ C) 4% decrease
+ D) 10% decrease
+ Answer: C) 4% decrease
+
+25. What is the square root of 0.0009?
+A) 0.03
+ B) 0.09
+ C) 0.3
+ D) 0.9
+ Answer: A) 0.03
+
+26. If today is Friday, what day will it be after 100 days?
+A) Monday
+ B) Tuesday
+ C) Wednesday
+ D) Thursday
+ Answer: C) Wednesday
+
+27. Find the odd one out:
+A) 121
+ B) 144
+ C) 169
+ D) 196
+ Answer: D) 196
+
+28. If log₁₀(1000) = ?
+A) 2
+ B) 3
+ C) 4
+ D) 10
+ Answer: B) 3
+
+29. A sum becomes double in 5 years at simple interest. Rate of interest?
+A) 10%
+ B) 15%
+ C) 20%
+ D) 25%
+ Answer: C) 20%
+
+30. In a certain code, INDIA is written as JOEKB. How is CHINA written?
+A) DJIOB
+ B) DJJOB
+ C) DJHOB
+ D) DJIPB
+ Answer: A) DJIOB
+
+31. What is the remainder when 7³⁴ is divided by 6?
+A) 1
+ B) 3
+ C) 5
+ D) 7
+ Answer: A) 1
+
+32. Find the missing number:
+2, 6, 12, 20, ___
+ A) 28
+ B) 30
+ C) 32
+ D) 36
+ Answer: A) 30
+
+33. If x + 1/x = 5, find x² + 1/x²
+A) 23
+ B) 25
+ C) 27
+ D) 29
+ Answer: A) 23
+
+34. A cube has how many diagonals?
+A) 4
+ B) 6
+ C) 12
+ D) 16
+ Answer: C) 12
+
+35. If the cost price of 15 pens equals selling price of 20 pens, profit %?
+A) 25%
+ B) 30%
+ C) 33⅓%
+ D) 40%
+ Answer: C) 33⅓%
+
+
